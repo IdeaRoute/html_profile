@@ -1,182 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nicolas Izu's Website</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #333;
-      padding: 1em;
-    }
-    nav a {
-      color: white;
-      margin-right: 1.5em;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    main {
-      max-width: 900px;
-      margin: auto;
-      padding: 2em;
-    }
-    section {
-      margin-bottom: 3em;
-    }
-    footer {
-      background-color: #333;
-      color: white;
-      text-align: center;
-      padding: 1em 0;
-      margin-top: 2em;
-    }
-    form label {
-      display: block;
-      margin-top: 1em;
-      font-weight: bold;
-    }
-    form input, form textarea {
-      width: 100%;
-      padding: 0.5em;
-      margin-top: 0.3em;
-      box-sizing: border-box;
-    }
-    form button {
-      margin-top: 1em;
-      padding: 0.7em 1.5em;
-      font-size: 1em;
-      background-color: #333;
-      color: white;
-      border: none;
-      cursor: pointer;
-    }
-    form button:hover {
-      background-color: #555;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 1em;
-    }
-    table, th, td {
-      border: 1px solid #ccc;
-    }
-    th, td {
-      padding: 0.7em;
-      text-align: left;
-    }
-    ul {
-      list-style-type: disc;
-      padding-left: 20px;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" />
+  <title>Nicolas Izu - Personal Profile</title>
+  
+  
 </head>
 <body>
 
-  <header>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#work">Work</a>
-      <a href="#resume">Resume</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  <div class="profile-container">
+    <div class="profile-header">
+      <img src="nicolas.JPG" alt="Nicolas Izu">
+      <h1>Nicolas Izu</h1>
+      <p>CEO, IdeaRoute IT Solutions Ltd</p>
+      <br> <br>
 
-  <main>
-    <section id="home">
-      <h1>Welcome to Nicolas Izu's Website</h1>
-      <p>This is the home section. Use the navigation bar to explore my work and get in touch!</p>
+      <div>
+        <nav class="main-menu">
+          <ul class="navigation-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">My Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
 
-      <!-- Embedded local video -->
-      <video width="480" controls>
-        <source src="sample-video.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+    <div class="profile-content">
+      <h2>About Me</h2>
+      <p>
+        I am a tech entrepreneur, web designer, and trainer passionate about building digital solutions that drive business growth. 
+        I specialize in WordPress development, web hosting, and tech training. With years of experience in delivering IT services,
+        I help businesses and individuals transition into the digital space with confidence.
+      </p>
 
-      <!-- Embedded local audio -->
-      <audio controls style="margin-top: 1em;">
-        <source src="sample-audio.mp3" type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
-    </section>
-
-    <article id="about">
-      <h2>About Nicolas Izu</h2>
-      <p>Hello! I am Nicolas Izu, a web developer passionate about creating beautiful and functional websites.</p>
-      <p>Here are some facts about me:</p>
+      <h2>Skills</h2>
       <ul>
-        <li>5 years experience in web development</li>
-        <li>Proficient in HTML, CSS, JavaScript</li>
-        <li>Loves learning new technologies</li>
+        <li>Web Development (HTML, CSS, JavaScript)</li>
+        <li>Domain & Hosting Management</li>
+        <li>Tech Training & Mentorship</li>
+        <li>Brand Strategy & Digital Transformation</li>
       </ul>
-    </article>
 
-    <article id="work">
-      <h2>Work</h2>
-      <p>Here are some highlights of the projects I've worked on:</p>
-      <table>
-        <thead>
-          <tr>
-            <th>Project Name</th>
-            <th>Description</th>
-            <th>Year</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><a href="#project-a">Project A</a></td>
-            <td>E-commerce platform</td>
-            <td>2024</td>
-          </tr>
-          <tr>
-            <td><a href="#project-b">Project B</a></td>
-            <td>Portfolio website</td>
-            <td>2023</td>
-          </tr>
-          <tr>
-            <td><a href="#project-c">Project C</a></td>
-            <td>Blogging system</td>
-            <td>2022</td>
-          </tr>
-        </tbody>
-      </table>
-    </article>
+      <h2>Projects</h2>
+      <p>
+        - <strong>IdeaRoute.dev</strong>: A tech solutions company offering hosting, domain registration, and training.<br>
+        - <strong>Web Development Training Program</strong>: Online and in-person classes for beginners and intermediate learners.
+      </p>
+    </div>
 
-    <article id="resume">
-      <h2>Resume</h2>
-      <p>You can download my resume here:</p>
-      <a href="resume.pdf" target="_blank" download>Download Resume (PDF)</a>
-    </article>
+    <div class="contact-info">
+      <h3>Contact Me</h3>
+      <p>Email: <a class="email" href="mailto:info@idearoute.dev">info@idearoute.dev</a></p>
+      <p>Phone: <a class="phone" href="tel:2348024934034">08024934034</a></p>
+      <p>Website: <a class="website" href="https://www.idearoute.dev" target="_blank">www.idearoute.dev</a></p>
+      <p>Location: 10 Saka Oluwa Street, Ologolo, Lekki-Lagos</p>
+      <br>
+      <div>
+      <h2>My Social Profiles</h2>
+      <br>
 
-    <article id="contact">
-      <h2>Contact Nicolas Izu</h2>
-      <form action="#" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required />
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-
-        <button type="submit">Send</button>
-      </form>
-    </article>
-  </main>
-
-  <footer>
-    <p>© 2025 Nicolas Izu. All rights reserved.</p>
-  </footer>
+    <p>Instagram: <a class="instagram" href="https://www.instagram.com/idearouteitsolutions">IdeaRoute Dev</a>
+      <br>
+      <p>LinkedIn: <a class="linkedin" href="https://www.linkedin.com/in/nicolasizu">Nicolas Izu </a>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>

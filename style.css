@@ -1,0 +1,87 @@
+/* My Profile Internal CSS Styling */
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .profile-container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .navigation-menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+        list-style: none;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .email, .phone, .website {
+        color: #005b96;
+    }
+    .email:hover, .phone:hover, .website:hover {
+        color:coral;
+    }
+
+    .instagram, .linkedin {
+        color: #005b96;
+    }
+
+    a:hover {
+        color: fuchsia;
+        text-decoration: dashed;
+    }
+
+    .profile-header {
+      background-color: #005b96;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    .profile-header img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border: 4px solid white;
+      margin-bottom: 15px;
+    }
+    .profile-header h1 {
+      margin: 0;
+      color: white;
+    }
+    .profile-content {
+      padding: 30px;
+    }
+    .profile-content h2 {
+      color: #005b96;
+    }
+    .profile-content p {
+      line-height: 1.6;
+      text-decoration: none;
+    }
+    .contact-info {
+      background: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+    }
+    .contact-info p {
+      margin: 5px 0;
+      text-decoration: none;
+    }
+    .a {
+      text-decoration: none;
+    }
